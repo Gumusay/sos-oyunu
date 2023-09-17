@@ -1,0 +1,57 @@
+/* Temel oyun tahtası */
+ .sos {
+    text-align: center;
+}
+
+.sos .container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 4px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.sos .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:cadetblue;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.sos .title.active {
+    background-color:antiquewhite;
+}
+
+/* Oyuncu durumu */
+ .sos .display-player {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Yeniden başlatma düğmesi */
+ #reset {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:darkgoldenrod;
+    color: #fff;
+    border: 1px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.sosTitle{
+    color: brown;
+}
+
+
+
+
+
